@@ -1,0 +1,15 @@
+.navigation-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.navigation-menu__center {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.navigation-menu__center > li {
+    margin-right: 50px;
+}
