@@ -1,0 +1,74 @@
+.card {
+  padding: 30px;
+  min-height: 280px;
+  width: 25.33%;
+  border: 1px solid #d8dcdf;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 600ms;
+  transition: all 600ms;
+}
+
+.card__heading {
+  margin: 0;
+  color: #252324;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 20px;
+  transition: 0.2s;
+  min-height: 50px;
+}
+
+.card__rotate-left,
+.card__rotate-right {
+  font-size: 2em;
+  position: absolute;
+  right: 16px;
+  top: 8px;
+  transition: all 0.2s;
+}
+
+.card__rotate-left {
+  animation: left 4s infinite ease-in-out;
+}
+
+.card__rotate-right {
+  top: 24px;
+  animation: right 4s infinite ease-in-out;
+}
+
+@keyframes left {
+  0% {
+    right: 16px
+  }
+  8% {
+    right: 24px;
+  }
+  16% {
+    right: 16px;
+  }
+  100% {
+    right: 16px;
+  }
+}
+
+@keyframes right {
+  0% {
+    right: 16px;
+  }
+  8% {
+    right: 8px;
+  }
+  16% {
+    right: 16px;
+  }
+  100% {
+    right: 16px;
+  }
+}

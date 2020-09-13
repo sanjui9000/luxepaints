@@ -1,0 +1,41 @@
+.tagline {
+  display: flex;
+  background-color: #252324;
+}
+
+.tagline__content {
+  width: 85%;
+  transition: all 0.2s;
+}
+
+.tagline__black {
+  color: black;
+}
+
+.tagline-left {
+  justify-content: flex-start;
+  text-align: right;
+}
+
+.tagline-right {
+  justify-content: flex-end;
+}
+
+.tagline__content h2 {
+  padding: 16px 32px;
+  line-height: 64px;
+}
+
+@media (max-width: 768px) {
+  .tagline__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .tagline__content h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+

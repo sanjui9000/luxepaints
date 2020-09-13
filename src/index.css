@@ -3,9 +3,64 @@
   src: local("Aeonik-Medium"), url(./Fonts/Aeonik-Medium.otf) format("opentype");
 }
 
+@font-face {
+  font-family: "Aeonik-Regular";
+  src: local("Aeonik-Regular"),
+    url(./Fonts/Aeonik-Regular.otf) format("opentype");
+}
+
 body {
   margin: 0;
   font-family: Aeonik-Medium, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+h1 {
+  font-size: 76px;
+  line-height: 80px;
+  letter-spacing: -0.7px;
+  font-weight: normal;
+  font-style: normal;
+  margin: 16px 0;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.3px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.25px;
+  max-width: 430px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Aeonik-Regular, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

@@ -1,0 +1,39 @@
+.clientele-body {
+  padding: 0 60px;
+}
+
+.clientele-body__paragraph {
+  font-size: 19px;
+  max-width: unset;
+}
+
+.clientele-body__heading {
+  margin: 0;
+}
+
+.clientele-body__alternate-color-heading {
+  color: rgb(115, 10, 50);
+}
+
+.clientele-body__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
+  text-align: center;
+  margin: 32px 0;
+}
+
+.clientele-body__grid .card {
+  width: unset;
+  display: grid;
+  grid-template-rows: 20% 80%;
+  min-height: unset;
+  align-items: unset;
+}
+
+.clientele-body__grid .card__heading {
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Aeonik-Regular, sans-serif;
+}

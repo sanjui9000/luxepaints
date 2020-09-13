@@ -1,0 +1,22 @@
+.home-page-body {
+  padding: 0 60px;
+}
+
+.home-page-body__alternate-color-heading {
+  color: rgb(201, 85, 57);
+}
+
+.home-page-body__heading {
+  margin: 0;
+}
+
+.home-page-body__paragraph {
+  font-size: 19px;
+  max-width: unset;
+}
+
+.home-page-body__card-holder {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
