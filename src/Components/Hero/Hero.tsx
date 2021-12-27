@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+import client from "../../API/api";
 
 import "./Hero.css";
 
@@ -15,8 +17,17 @@ export const Hero = ({
   backgroundOverlay,
   children,
 }: HeroProps) => {
+  const [logo, setLogo] = useState("");
+
+  useEffect(() => {
+    client.getEntry("7m9y6JpPmVUC8P2WE9vDvG").then(function (entry: any) {
+      setLogo("https:" + entry.fields.image.fields.file.url);
+    });
+  }, []);
+
   return (
     <div className="hero" style={{ minHeight: height }}>
+      <img className="hero__left__logo" src={logo} alt="logo" />
       <div
         className="hero__background"
         style={{

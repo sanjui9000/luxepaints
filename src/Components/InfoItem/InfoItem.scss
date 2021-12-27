@@ -1,0 +1,43 @@
+.InfoItem {
+	position: relative;
+
+	.InfoItem-paragraph {
+		color: #454545;
+		font-size: 1.2em;
+		max-width: unset;
+
+		&:after {
+			content: "";
+			width: 8%;
+			height: 5px;
+			bottom: 0;
+			right: 0;
+			position: absolute;
+			z-index: 9;
+			background: linear-gradient(to right, white 50%, brown 50%);
+			transform: rotate(90deg);
+			transform-origin: 100% 100%;
+		}
+	}
+}
+
+.InfoItem-switchBorders {
+	position: relative;
+
+	.InfoItem-paragraph--switchBorders {
+		color: #454545;
+		font-size: 1.2em;
+		max-width: unset;
+
+		&:after {
+			content: "";
+			width: 8%;
+			height: 5px;
+			bottom: 0;
+			right: 0;
+			position: absolute;
+			z-index: 9;
+			background: linear-gradient(to right, white 50%, brown 50%);
+		}
+	}
+}

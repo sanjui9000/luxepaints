@@ -76,6 +76,12 @@
   background: white;
 }
 
+.hero__left__logo {
+  position: absolute;
+  left: 5%;
+  top: 3%;
+}
+
 @media (max-width: 768px) {
   .left__white-bg {
     width: 100%;

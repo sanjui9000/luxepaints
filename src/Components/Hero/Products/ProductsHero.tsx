@@ -7,8 +7,8 @@ export const ProductsHero = () => {
         <div>
           <h1>Product Catalogue.</h1>
           <p>
-            We have an eye for detail, as well as the knowledge of how different
-            colors effect various properties and moods.
+              Open the mind to limitless possibilities with our extensive & exclusive range
+              of paints and emulsions of exterior paints.
           </p>
         </div>
       </div>

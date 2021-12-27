@@ -2,8 +2,8 @@ import React from "react";
 
 export const ColorsHero = () => {
   return (
-    <div className="left__holder">
-      <div className="left__box">
+    <div className="right__holder">
+      <div className="right__box">
         <div>
           <h1>Colors.</h1>
           <p>
@@ -12,8 +12,8 @@ export const ColorsHero = () => {
           </p>
         </div>
       </div>
-      <div className="left__empty-box">
-        <div className="left__white-bg"></div>
+      <div className="right__empty-box">
+        <div className="right__white-bg"></div>
       </div>
     </div>
   );

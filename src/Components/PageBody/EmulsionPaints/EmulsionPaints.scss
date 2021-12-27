@@ -1,0 +1,13 @@
+.emulsions__page-body {
+	padding: 0 60px;
+
+	.article-item {
+		margin-bottom: 60px;
+
+		& + .fade-in-section {
+			.colors-body__heading {
+				margin: 16px 0;
+			}
+		}
+	}
+}
