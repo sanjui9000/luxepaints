@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7010e1a4.chunk.css",
+    "main.js": "/static/js/main.0d83e637.chunk.js",
+    "main.js.map": "/static/js/main.0d83e637.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bb972165.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bb972165.js.map",
+    "static/css/2.b5cd4b83.chunk.css": "/static/css/2.b5cd4b83.chunk.css",
+    "static/js/2.6717a484.chunk.js": "/static/js/2.6717a484.chunk.js",
+    "static/js/2.6717a484.chunk.js.map": "/static/js/2.6717a484.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a71e2627a40688ce952197fb66f4951b.js": "/precache-manifest.a71e2627a40688ce952197fb66f4951b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b5cd4b83.chunk.css.map": "/static/css/2.b5cd4b83.chunk.css.map",
+    "static/css/main.7010e1a4.chunk.css.map": "/static/css/main.7010e1a4.chunk.css.map",
+    "static/js/2.6717a484.chunk.js.LICENSE.txt": "/static/js/2.6717a484.chunk.js.LICENSE.txt",
+    "static/media/AboutArticleImage.jpg": "/static/media/AboutArticleImage.984bd4e1.jpg",
+    "static/media/AboutUsImage.jpg": "/static/media/AboutUsImage.acd37405.jpg",
+    "static/media/index.css": "/static/media/Aeonik-Regular.844324dc.otf",
+    "static/media/ColorsArticleImage.jpg": "/static/media/ColorsArticleImage.b65aab45.jpg",
+    "static/media/ColorsPageImage.jpg": "/static/media/ColorsPageImage.9813b5cc.jpg",
+    "static/media/ProductsPageBody.scss": "/static/media/TexturePaintsProductsImage.3a9496f1.jpg",
+    "static/media/ContactUsImage.jpg": "/static/media/ContactUsImage.e3222112.jpg",
+    "static/media/EmulsionsImage.jpg": "/static/media/EmulsionsImage.26a6a8c6.jpg",
+    "static/media/HomePageImage.jpg": "/static/media/HomePageImage.c7a11552.jpg",
+    "static/media/ProductPageImage.jpg": "/static/media/ProductPageImage.9598ba90.jpg",
+    "static/media/ProductsPageImage.jpg": "/static/media/ProductsPageImage.eb9585d9.jpg",
+    "static/media/ServicesArticleImage.jpg": "/static/media/ServicesArticleImage.d90060a4.jpg",
+    "static/media/ServicesImage.jpg": "/static/media/ServicesImage.0205db48.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb972165.js",
+    "static/css/2.b5cd4b83.chunk.css",
+    "static/js/2.6717a484.chunk.js",
+    "static/css/main.7010e1a4.chunk.css",
+    "static/js/main.0d83e637.chunk.js"
+  ]
+}
